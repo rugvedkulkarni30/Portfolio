@@ -46,7 +46,7 @@
     >
       <div class="container-fluid px-5">
         <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
-          >Rugved</a
+          >Portfolio</a
         >
         <button
           class="nav-menu d-md-none"
@@ -84,14 +84,14 @@
     <!-- navbar ends here -->
 
     <!-- home section starts  -->
-    <section class="home pt-5 pb-5" id="home">
+    <section class="home pt-5 pb-5 overflow-hidden" id="home">
       <div class="row justify-content-evenly align-middle">
         <!-- here data-aos is used for adding aos animation  -->
         <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
           <h2 style="color: #3f396d">
             Hello! I Am <br /><span class="c-orange">Rugved Kulkarni</span>
           </h2>
-          <p class="text-muted">
+          <p class="text-muted ">
             An AI/ML developer with a strong focus on natural language processing and intelligent systems. Skilled in Python and frameworks like Scikit-learn, TensorFlow, and PyTorch, I enjoy building efficient, data-driven solutions across various domains of machine learning. I'm always eager to collaborate on impactful ML projects and push the boundaries of what AI can do.
           </p>
           
@@ -106,7 +106,7 @@
     <!-- home section ends here -->
 
    <!-- expertise section starts -->
-<section class="expertise mt-5" id="service">
+<section class="expertise mt-5 overflow-hidden" id="service">
   <div class="heading text-center">
     <small>My Expertise</small>
     <h3>
@@ -179,7 +179,7 @@
 
 
 <!-- skill section starts -->
-<section class="skill mt-5 py-5" id="about">
+<section class="skill mt-5 py-5 overflow-hidden" id="about">
   <div class="row justify-content-evenly">
     
     <!-- Skill cards -->
@@ -273,33 +273,33 @@
 
 
     <!-- project section starts here -->
-<section class="portfolio" id="projects">
+<section class="portfolio overflow-hidden" id="projects">
   <div class="heading text-center pt-5">
     <small>My Work</small>
     <h3>Check My Projects!</h3>
   </div>
 
-  <div id="myBtnContainer" class="text-center mt-4">
+  <!-- <div id="myBtnContainer" class="text-center mt-4">
     <button class="filter-item" data-filter="ml">ML</button>
     <button class="filter-item" data-filter="nlp">NLP</button>
     <button class="filter-item" data-filter="cv">Computer Vision</button>
-  </div>
+  </div> -->
 
   <div class="portfolio-body">
     <div class="row justify-content-evenly px-4">
 
       <!-- Automated File Management System -->
-      <div class="post col-md-4 nlp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+      <div class="post col-md-4 nlp all col-10 mt-3 mt-md-0 " data-aos="fade-up">
         <div class="card">
-          <img src="images/file-management.avif" class="card-img-top" alt="Automated File Management System" />
+          <img src="images/file-management.avif" class="card-img-top"  style="height: 200px; width: 100%; object-fit: cover;"alt="Automated File Management System" />
           <div class="card-body text-center">
             <h4 class="card-title">Automated File Management System</h4>
             <span class="badge bg-secondary">Python</span>
             <span class="badge bg-secondary">Pytesseract</span>
             <span class="badge bg-secondary">OpenAI API</span>
             <span class="badge bg-secondary mb-2">NLP</span><br />
-            <p class="text-muted small mt-2">LLM-based system that extracts and organizes files based on their content using OCR and intelligent classification.</p>
-            <a href="#" class="link">Read More</a>
+            <p class="text-white small mt-2">LLM-based system that extracts and organizes files based on their content using OCR and intelligent classification.</p>
+            <a href="#" class="link">Read More</a> 
           </div>
         </div>
       </div>
@@ -307,14 +307,14 @@
       <!-- Rep Counter -->
       <div class="post col-md-4 cv all col-10 mt-3 mt-md-0" data-aos="fade-up">
         <div class="card">
-          <img src="images/rep-counter.avif" class="card-img-top" alt="Rep Counter System" />
+          <img src="images/rep-counter.avif" class="card-img-top" style="height: 200px; width: 100%; object-fit: cover;" alt="Rep Counter System" />
           <div class="card-body text-center">
             <h4 class="card-title">Rep Counter System</h4>
             <span class="badge bg-secondary">OpenCV</span>
             <span class="badge bg-secondary">MediaPipe</span>
             <span class="badge bg-secondary mb-2">Computer Vision</span><br />
-            <p class="text-muted small mt-2">Real-time exercise tracker that counts reps/sets for key workouts using pose detection and visual feedback.</p>
-            <a href="#" class="link">Read More</a>
+            <p class="text-white small mt-2">Real-time exercise tracker that counts reps/sets for key workouts using pose detection and visual feedback.</p>
+            <a href="https://github.com/rugvedkulkarni30/DataHack_Infinite_loops" class="link">Read More</a>
           </div>
         </div>
       </div>
@@ -322,14 +322,14 @@
       <!-- Loan Risk Classifier -->
       <div class="post col-md-4 ml all col-10 mt-3 mt-md-0" data-aos="fade-up">
         <div class="card">
-          <img src="images/loan-risk.avif" class="card-img-top" alt="Loan Risk Classifier" />
+          <img src="images/loan-risk.avif" class="card-img-top"  style="height: 200px; width: 100%; object-fit: cover;" alt="Loan Risk Classifier" />
           <div class="card-body text-center">
             <h4 class="card-title">Loan Risk Classifier</h4>
             <span class="badge bg-secondary">Scikit-learn</span>
             <span class="badge bg-secondary">Pandas</span>
             <span class="badge bg-secondary mb-2">ML</span><br />
-            <p class="text-muted small mt-2">Predictive model that classifies loan risk levels to assist institutions in evaluating default probabilities.</p>
-            <a href="#" class="link">Read More</a>
+            <p class="text-white small mt-2">Predictive model that classifies loan risk levels to assist institutions in evaluating default probabilities.</p>
+            <a href="https://github.com/rugvedkulkarni30/Loan_risk_classifier" class="link">Read More</a>
           </div>
         </div>
       </div>
@@ -337,14 +337,14 @@
       <!-- Movie Recommendation System -->
       <div class="post col-md-4 ml all col-10 mt-3 mt-md-4" data-aos="fade-up">
         <div class="card">
-          <img src="images/movie-recommendation.jpg" class="card-img-top" alt="Movie Recommendation System" />
+          <img src="images/movie-recommendation.jpg" class="card-img-top"  style="height: 200px; width: 100%; object-fit: cover;"  alt="Movie Recommendation System" />
           <div class="card-body text-center">
             <h4 class="card-title">Movie Recommendation System</h4>
             <span class="badge bg-secondary">Python</span>
             <span class="badge bg-secondary">Pandas</span>
             <span class="badge bg-secondary">ML</span><br />
-            <p class="text-muted small mt-2">A simple recommendation engine that suggests top 5 similar movies when a user selects a movie title.</p>
-            <a href="#" class="link">Read More</a>
+            <p class="text-white small mt-2">A simple recommendation engine that suggests top 5 similar movies when a user selects a movie title.</p>
+            <a href="https://github.com/rugvedkulkarni30/MovieRecommender" class="link">Read More</a>
           </div>
         </div>
       </div>
@@ -357,7 +357,7 @@
 
 
 <!-- contact section starts -->
-<section class="contact py-5" id="contact">
+<section class="contact py-5 overflow-hidden" id="contact">
   <div class="heading text-center">
     <small>Get in Touch</small>
     <h3>Any Questions? Feel Free to Contact</h3>
@@ -462,13 +462,13 @@
 
   <!-- Social Links -->
 <div class="social-links mt-5" data-aos="fade-up">
-  <a href="mailto:kulkarni.rugved.m@gmail.com" title="Email">
+  <a href="mailto:kulkarni.rugved.m@gmail.com" id="email" title="Email">
     <i class="bi bi-envelope-fill"></i>
   </a>
-  <a href="https://github.com/rugvedkulkarni30" target="_blank" title="GitHub">
+  <a href="https://github.com/rugvedkulkarni30" id="github" target="_blank" title="GitHub">
     <i class="bi bi-github"></i>
   </a>
-  <a href="https://www.linkedin.com/in/RugvedKulkarni" target="_blank" title="LinkedIn">
+  <a href="https://www.linkedin.com/in/RugvedKulkarni" id="linkedin" target="_blank" title="LinkedIn">
     <i class="bi bi-linkedin"></i>
   </a>
 </div>

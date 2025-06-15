@@ -359,35 +359,20 @@ footer .link-group a:hover {
   text-decoration: none;
 }
 
-.social-links a:hover {
-  background-color: #00ffe5;
-  color: #000;
-  transform: scale(1.1);
+
+#email:hover {
+    background-color: #ff2a2a;
 }
 
 
-.social-links .instagram {
-    color: #f33a7e;
-}
 
-
-.social-links .instagram:hover {
-    background-color: #f33a7e;
-}
-
-.social-links .github {
-    color: #25D366;
-}
-
-.social-links .github:hover {
+#github:hover {
     background-color: #25D366;
 }
 
-.social-links .linkedin {
-    color: #255afc;
-}
 
-.social-links .linkedin:hover {
+
+#linkedin:hover {
     background-color: #255afc;
 }
 
@@ -401,7 +386,9 @@ footer .link-group a:hover {
     background-color: #fca61f;
     color: #121212;
     animation: pulse 3s infinite;
-}.circular-progress {
+}
+
+.circular-progress {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -413,7 +400,10 @@ footer .link-group a:hover {
     position: relative;
     background-color: #333; /* Ensure the background is the same for all */
   }
-  
+
+
+
+
   .circular-progress::before {
     content: "";
     position: absolute;
